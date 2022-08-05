@@ -1,0 +1,140 @@
+body,
+h1 {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo {
+    background-color: darkolivegreen;
+    padding: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: -46px;
+}
+
+.item {
+    font-weight: 800;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1em;
+}
+
+.item :hover {
+    color: white;
+}
+
+.imghgt {
+    width: 100%;
+}
+
+.para {
+    background-color: #ffdc99;
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: -3px;
+}
+
+.container {
+    background-color: #ededed;
+    height: 50vh;
+    margin-top: -32px;
+    margin-right: -217px;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.column {
+    float: left;
+    width: 17%;
+    padding: 5px;
+}
+
+.column img {
+    width: 260px;
+}
+
+.column h6 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    height: 200px;
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 1em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.TimeTable h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .logo {
+        padding: 2em;
+    }
+    .item {
+        margin-top: 29px;
+    }
+    .items {
+        margin-right: -18px;
+        margin-top: -36px;
+    }
+    .imghgt {
+        height: 40vh;
+        margin-top: -28px;
+    }
+    .para {
+        font-size: 1em;
+        padding: 1em;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #ededed;
+        height: 100%;
+    }
+    .container h1 {
+        font-size: 1em;
+        font-family: 'Inter', sans-serif;
+        overflow: visible;
+        margin-right: 223px;
+        margin-top: 8px
+    }
+    .column {
+        width: auto;
+        margin-right: 198px;
+    }
+    .column img {
+        width: 260px;
+    }
+    .column h6 {
+        text-align: center;
+        font-size: 1em;
+    }
+}
